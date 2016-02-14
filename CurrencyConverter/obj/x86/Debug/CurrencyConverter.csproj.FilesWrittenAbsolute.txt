@@ -1,0 +1,6 @@
+/home/mark/code/mono/CurrencyConverter/CurrencyConverter/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/mark/code/mono/CurrencyConverter/CurrencyConverter/obj/x86/Debug/CurrencyConverter.gtk-gui.gui.stetic
+/home/mark/code/mono/CurrencyConverter/CurrencyConverter/bin/Debug/CurrencyConverter.exe.mdb
+/home/mark/code/mono/CurrencyConverter/CurrencyConverter/bin/Debug/CurrencyConverter.exe
+/home/mark/code/mono/CurrencyConverter/CurrencyConverter/obj/x86/Debug/CurrencyConverter.exe
+/home/mark/code/mono/CurrencyConverter/CurrencyConverter/obj/x86/Debug/CurrencyConverter.exe.mdb

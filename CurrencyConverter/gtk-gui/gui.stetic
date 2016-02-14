@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Release/CurrencyConverter.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="403 281">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Currency Conversion</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed2">
+        <property name="MemberName">fixed</property>
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Button" id="btnConvert">
+            <property name="MemberName">btnConvert</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Convert</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnConvertClicked" />
+          </widget>
+          <packing>
+            <property name="X">35</property>
+            <property name="Y">87</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="tboxAmountEntry">
+            <property name="MemberName" />
+            <property name="WidthRequest">82</property>
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">111</property>
+            <property name="Y">87</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblMain">
+            <property name="MemberName">lblMain</property>
+            <property name="WidthRequest">171</property>
+            <property name="HeightRequest">33</property>
+            <property name="LabelProp">Currency Converter</property>
+            <property name="UseMarkup">True</property>
+            <property name="MnemonicWidget">lblMain</property>
+          </widget>
+          <packing>
+            <property name="X">123</property>
+            <property name="Y">24</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblPesoAmount">
+            <property name="MemberName">lblPesoAmount</property>
+            <property name="LabelProp" translatable="yes">Peso Amount</property>
+            <property name="MnemonicWidget">lblPesoAmount</property>
+          </widget>
+          <packing>
+            <property name="X">35</property>
+            <property name="Y">203</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnClear">
+            <property name="MemberName">btnClear</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Clear</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnClearClick" />
+          </widget>
+          <packing>
+            <property name="X">35</property>
+            <property name="Y">123</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnExit">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Exit</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnExitClick" />
+          </widget>
+          <packing>
+            <property name="X">34</property>
+            <property name="Y">158</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblEuroAmount">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Euro Amount</property>
+          </widget>
+          <packing>
+            <property name="X">152</property>
+            <property name="Y">203</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblMarkAmount">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Mark Amount</property>
+          </widget>
+          <packing>
+            <property name="X">275</property>
+            <property name="Y">203</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
